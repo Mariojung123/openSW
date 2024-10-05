@@ -25,8 +25,10 @@ def calculate_and_display(x, y):
 def conflict_two():
     print("make conflict_two")
 
+
 # 메인 프로그램 실행
 if __name__ == "__main__":
     x, y = get_numbers()
     calculate_and_display(x, y)
     conflict_two()
+
