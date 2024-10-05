@@ -22,11 +22,13 @@ def calculate_and_display(x, y):
     print(f"{x} / {y} = {divide_result}")
 
 # 충돌을 위한 코드 블럭
-def conflict_one():
-    print("make conflict_one")
+def conflict_two():
+    print("make conflict_two")
+
 
 # 메인 프로그램 실행
 if __name__ == "__main__":
     x, y = get_numbers()
     calculate_and_display(x, y)
-    conflict_one()
+    conflict_two()
+
